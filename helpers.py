@@ -1,6 +1,7 @@
 import requests
+from typing import Tuple
 
 
-def get_current_weather(base_url: str, api_key: str, query_params: str) -> str:
+def get_current_weather(base_url: str, api_key: str, query_params: str) -> Tuple[int, str]:
     r = requests.get(f"{base_url}?{query_params}&{api_key}")
-    return r.json()
+    return r.status_code, r.json()
