@@ -1,6 +1,4 @@
 import pytest
-
-# from conftest import coordinates
 from helpers import get_current_weather
 
 
