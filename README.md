@@ -11,7 +11,7 @@
 ### How to run:
 
 1. Create or activate a python environment [venv documentaion](https://docs.python.org/3/library/venv.html)
-2. Install all requirements: `pip install requirements.txt`
+2. Install all requirements: `pip install -r requirements.txt`
 3. Run tests:
 ```Python
 # Individually
