@@ -1,6 +1,6 @@
 import pytest
-from helpers import get_current_weather
 
+from helpers import get_current_weather
 
 coordinates = [{"lat": 35, "lon": 139}, {"lat": -16, "lon": 145}]
 

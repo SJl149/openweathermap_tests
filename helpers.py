@@ -1,5 +1,6 @@
-import requests
 from typing import Tuple
+
+import requests
 
 
 def get_current_weather(base_url: str, api_key: str, query_params: str) -> Tuple[int, str]:

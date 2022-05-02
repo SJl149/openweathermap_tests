@@ -1,6 +1,6 @@
 import pytest
-from helpers import get_current_weather
 
+from helpers import get_current_weather
 
 cities = [
     {"name": "London", "query": "London"},
