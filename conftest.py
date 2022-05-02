@@ -20,6 +20,10 @@ def base_url() -> str:
     return "https://api.openweathermap.org/data/2.5/weather"
 
 
+def pytest_html_report_title(report):
+    report.title = "Test OpenWeatherMap API"
+
+
 def pytest_html_results_table_header(cells):
     cells.insert(2, html.th("Description"))
     cells.insert(1, html.th("Time", class_="sortable time", col="time"))
